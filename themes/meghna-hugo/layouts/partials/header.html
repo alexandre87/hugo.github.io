@@ -12,23 +12,23 @@
         <title> {{ .Title }} </title>
 		
 		{{"<!-- Favicon -->" |safeHTML}}
-		<link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | relURL }}"/>
+		<link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}"/>
 		
 		{{"<!-- CSS -->"|safeHTML}}
 		{{"<!-- Fontawesome Icon font -->"|safeHTML}}
-        <link rel="stylesheet" href="{{"plugins/themefisher-font/style.css" | relURL}}">
-        <link rel="stylesheet" href="{{"plugins/themefisher-font/custom.css" | relURL}}">
+        <link rel="stylesheet" href="https://github.com/alexandre87/hugo/blob/master/themes/meghna-hugo/static/css/style.css">
+        <link rel="stylesheet" href="{{"plugins/themefisher-font/custom.css" | absURL}}">
 		{{"<!-- bootstrap.min css -->"|safeHTML}}
-        <link rel="stylesheet" href="{{"plugins/bootstrap/dist/css/bootstrap.min.css"| relURL}}">
+        <link rel="stylesheet" href="{{"plugins/bootstrap/dist/css/bootstrap.min.css"|absURL}}">
 		{{"<!-- Animate.css -->"|safeHTML}}
-        <link rel="stylesheet" href="{{"plugins/animate-css/animate.css"| relURL}}">
+        <link rel="stylesheet" href="{{"plugins/animate-css/animate.css"|absURL}}">
         {{"<!-- Magnific popup css -->"|safeHTML}}
-        <link rel="stylesheet" href="{{"plugins/magnific-popup/dist/magnific-popup.css"|| relURL}}">
+        <link rel="stylesheet" href="{{"plugins/magnific-popup/dist/magnific-popup.css"|absURL}}">
 		{{"<!-- Slick Carousel -->"|safeHTML}}
-        <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick.css"| relURL}}">
-        <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick-theme.css"| relURL}}">
+        <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick.css"|absURL}}">
+        <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick-theme.css"|absURL}}">
 		{{"<!-- Main Stylesheet -->"|safeHTML}}
-        <link rel="stylesheet" href="{{"css/style.css"| relURL}}">
+        <link rel="stylesheet" href="https://github.com/alexandre87/hugo/blob/master/themes/meghna-hugo/static/css/style.css">
 
     </head>
     {{"<!-- body start -->" | safeHTML}}
